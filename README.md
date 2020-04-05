@@ -75,9 +75,9 @@ Data Aggregation: granularity = YEARLY, combine_hosts = True, save_file = ../dat
 
 The data format of each produced file can be found below:
 
-### Tokenized Date of input data file (./data/processed/traffic_stats_tokenized_date.csv)
+#### Tokenized Date of input data file (./data/processed/traffic_stats_tokenized_date.csv)
 ```
-date	        year	month	day	week_day	hour	host	requests
+date	        year	month   day	week_day	hour	host	requests
 15/03/26 14:00	2015	3	    26	3	        14	    as-01	316
 15/03/26 14:00	2015	3	    26	3	        14	    as-02	285
 15/03/26 14:00	2015	3	    26	3	        14	    as-03	306
@@ -89,7 +89,7 @@ date	        year	month	day	week_day	hour	host	requests
 ...
 ```
 
-### `YEARLY` data aggregation without combining the hosts (./data/processed/traffic_stats_YEARLY.csv)
+#### `YEARLY` data aggregation without combining the hosts (./data/processed/traffic_stats_YEARLY.csv)
 ```
 year	host	requests
 2015	as-01	105487150
@@ -103,7 +103,7 @@ year	host	requests
 ...
 ```
 
-### `YEARLY` data aggregation with combining the hosts (./data/processed/traffic_stats_YEARLY_CHs.csv)
+#### `YEARLY` data aggregation with combining the hosts (./data/processed/traffic_stats_YEARLY_CHs.csv)
 ```
 year	requests
 2015	429333815
@@ -114,9 +114,9 @@ year	requests
 2020	311183306
 ```
 
-### `MONTHLY` data aggregation without combining the hosts (./data/processed/traffic_stats_MONTHLY.csv)
+#### `MONTHLY` data aggregation without combining the hosts (./data/processed/traffic_stats_MONTHLY.csv)
 ```
-year	month	host	requests
+year	month   host	requests
 2015	3	    as-01	895369
 2015	3	    as-02	972804
 2015	3	    as-03	969290
@@ -128,9 +128,9 @@ year	month	host	requests
 ...
 ```
 
-### `MONTHLY` data aggregation with combining the hosts (./data/processed/traffic_stats_MONTHLY_CHs.csv)
+#### `MONTHLY` data aggregation with combining the hosts (./data/processed/traffic_stats_MONTHLY_CHs.csv)
 ```
-year	month	requests
+year	month   requests
 2015	3	    3732399
 2015	4	    20242719
 2015	5	    19479111
@@ -138,9 +138,9 @@ year	month	requests
 ...
 ```
 
-### `DAILY` data aggregation without combining the hosts (./data/processed/traffic_stats_DAILY.csv)
+#### `DAILY` data aggregation without combining the hosts (./data/processed/traffic_stats_DAILY.csv)
 ```
-year	month	day	week_day	host	requests
+year	month   day	week_day	host	requests
 2015	3	    26	3	        as-01	92558
 2015	3	    26	3	        as-02	100167
 2015	3	    26	3	        as-03	99569
@@ -155,9 +155,9 @@ year	month	day	week_day	host	requests
 ...
 ```
 
-### `DAILY` data aggregation with combining the hosts (./data/processed/traffic_stats_DAILY_CHs.csv)
+#### `DAILY` data aggregation with combining the hosts (./data/processed/traffic_stats_DAILY_CHs.csv)
 ```
-year	month	day	week_day	requests
+year	month   day	week_day	requests
 2015	3	    26	3	        385386
 2015	3	    27	4	        795009
 2015	3	    28	5	        406355
@@ -167,9 +167,9 @@ year	month	day	week_day	requests
 ...
 ```
 
-### `HOURLY` data aggregation without combining the hosts (./data/processed/traffic_stats_HOURLY.csv)
+#### `HOURLY` data aggregation without combining the hosts (./data/processed/traffic_stats_HOURLY.csv)
 ```
-year	month	day	week_day	hour	host	requests
+year	month   day	week_day	hour	host	requests
 2015	3	    26	3	        14	    as-01	17083
 2015	3	    26	3	        14	    as-02	18356
 2015	3	    26	3	        14	    as-03	18034
@@ -185,9 +185,9 @@ year	month	day	week_day	hour	host	requests
 ...
 ```
 
-### `HOURLY` data aggregation with combining the hosts (./data/processed/traffic_stats_HOURLY_CHs.csv)
+#### `HOURLY` data aggregation with combining the hosts (./data/processed/traffic_stats_HOURLY_CHs.csv)
 ```
-year	month	day	week_day	hour	requests
+year	month   day	week_day	hour	requests
 2015	3	    26	3	        14	    70913
 2015	3	    26	3	        15	    69843
 2015	3	    26	3	        16	    69809
