@@ -130,4 +130,5 @@ dmypy.json
 
 # Manual additions
 private
-*.csv
+data/input/*.csv
+data/processed/traffic_stats_tokenized_date.csv
