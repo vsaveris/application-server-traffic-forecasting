@@ -65,7 +65,7 @@ def splitData(data, split_size):
         DataFrame: Secind chunk of the data (x portion)
     '''
     
-    return train_test_split(data, test_size = test_size, shuffle = False)
+    return train_test_split(data, test_size = split_size, shuffle = False)
 
 
 def normalizeData(data):
