@@ -133,3 +133,4 @@ private
 data/input/*.csv
 data/processed/traffic_stats_tokenized_date.csv
 notes.txt
+dumps/
